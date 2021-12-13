@@ -1,0 +1,41 @@
+/* 版心的公共类 */
+.container{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+/* 快捷菜单模块 */
+.xtx-shortcut{
+    height: 52px;
+    background-color: #333;
+}
+
+.xtx-shortcut .container{
+    height: 52px;
+    
+}
+.xtx-shortcut ul li{
+    float: left;
+    line-height: 52px;
+    color: #666;
+}
+
+.xtx-shortcut ul a{
+    margin: 0 16px;
+    color: #dcdcdc;
+    font-size: 14px;
+}   
+.xtx-shortcut .container li:last-child a{
+    margin-right: 0;
+}
+.xtx-shortcut .container li:last-child a::before{
+    content: '';
+    display: inline-block;
+    width: 11px;
+    height: 16px;
+    margin-top: -3px;
+    margin-right: 8px;
+    background: url(../images/sprites.png)-160px -70px;
+    vertical-align: middle;
+}
+
