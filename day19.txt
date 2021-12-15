@@ -1,0 +1,55 @@
+/* 宣传服务：xtx-service*/
+.xtx-service{
+    height:174px ;
+    background-color:#333;
+}
+.xtx-service .container{
+    width: 1393px;
+    height: 173px;
+    border-bottom:1px solid #434343 ;
+}
+.xtx-service .container a{
+    float: left;
+    width: 33.33%;
+    height: 173px;
+    text-align: center;
+    line-height: 173px;
+    font-size: 28px;
+    color: #fff;
+}
+.xtx-service .container a::before{
+    display: inline-block;
+    content: '';
+    width: 58px;
+    height: 58px;
+    margin-right: 19px;
+    background: url(../images/sprites.png)0 0;
+    vertical-align: middle;
+    
+}
+.xtx-service .container a:nth-child(2)::before{
+    background: url(../images/sprites.png)-130px 0;
+}
+.xtx-service .container a:nth-child(3)::before{
+    background: url(../images/sprites.png)-65px 0;
+}
+/* 版权信息：xtx-copyright */
+.xtx-copyright{
+    height: 168px;
+    background-color:#333;
+}
+.xtx-copyright .container{
+    padding-top: 41px;
+    box-sizing: border-box;
+    height: 168px;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+}
+.xtx-copyright .container p a{
+    color: #999;
+    height: 35px;
+}
+.xtx-copyright .container p{
+    height: 35px;
+}
